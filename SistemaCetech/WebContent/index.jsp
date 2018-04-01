@@ -66,8 +66,8 @@
 							<label class="fs-field-label fs-anim-upper" for="correo" data-info="Se enviara informacion importante a esta direccion">E-mail?</label>
 							<input class="fs-anim-lower" id="correo" name="correo" type="email" placeholder="usuario@dominio.com" required/>
 						</li>
-						<li data-input-trigger>
-							<label class="fs-field-label fs-anim-upper" for="curso">Tu curso es: </label>
+						<!-- <li data-input-trigger>
+							<label class="fs-field-label fs-anim-upper" for="curso">Tu curso es (Seleccionalo): </label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
 								<span><input id="cursob" name="curso" type="radio" value="JavaBasico(JSE)"/><label for="curso" class="radio-conversion">Java Basico(JSE)</label></span>
 								<span><input id="cursoc" name="curso" type="radio" value="JavaWeb(JEE)"/><label for="curso" class="radio-social">Java Web (JEE)</label></span>
@@ -75,15 +75,27 @@
 								<span><input id="cursoc" name="curso" type="radio" value=".NET"/><label for="curso" class="radio-social">.NET</label></span>
 								<span><input id="cursoa" name="curso" type="radio" value="Android"/><label for="curso" class="radio-mobile">Android</label></span>
 							</div>
-						</li>
-						<!-- Forma de pago -->
+						</li>  se agrego como comentario porqué dicho código no respondia al darle click a los cursos-->
 						<li data-input-trigger>
-							<label class="fs-field-label fs-anim-upper" for="formaDePago" data-info="formaDePago">Forma de Pago</label>
+							<label class="fs-field-label fs-anim-upper" for="curso" data-info="Tú curso es: ">Tu curso es:</label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
-								<span><input id="formaDePago" name="formaDePago" type="radio" value="Semanal"/><label for="formaDePago" class="radio-conversion">Semanal</label></span>
-								<span><input id="formaDePago" name="formaDePago" type="radio" value="Mensual"/><label for="formaDePago" class="radio-social">Mensual</label></span>
-								<span><input id="formaDePago" name="formaDePago" type="radio" value="Unasolaexhibición"/><label for="formaDePago" class="radio-mobile">Una sola exhibición</label></span>
+								<span><input id="cursoA" name="curso" type="radio" value="Java Basico JSE"/><label for="cursoA" class="radio-conversion">Java Basico JSE</label></span>
+								<span><input id="cursoB" name="curso" type="radio" value="Java web JEE"/><label for="cursoB" class="radio-social">Java Web JEE</label></span>
+								<span><input id="cursoC" name="curso" type="radio" value="Android Basico"/><label for="cursoC" class="radio-mobile">Android Basico</label></span>
+								<span><input id="cursoD" name="curso" type="radio" value="Oracle Basico"/><label for="cursoD" class="radio-conversion">Oracle Basico</label></span>
 							</div>
+								
+							
+						</li>
+						<li data-input-trigger>
+							<label class="fs-field-label fs-anim-upper" for="formaDePago" data-info="Tú curso es: ">Forma de pago:</label>
+							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+								<span><input id="formaDePagoA" name="formaDePago" type="radio" value="Mensual"/><label for="formaDePagoA" class="radio-conversion">Mensual</label></span>
+								<span><input id="formaDePagoB" name="formaDePago" type="radio" value="Semanal"/><label for="formaDePagoB" class="radio-social">Semanal</label></span>
+								<span><input id="formaDePagoC" name="formaDePago" type="radio" value="SolaExhibicion"/><label for="formaDePagoC" class="radio-mobile">Una Sola Exhibicón</label></span>
+							</div>
+								
+							
 						</li>
 						
 						<li data-input-trigger>
@@ -159,9 +171,9 @@
 						<li data-input-trigger>
 							<label class="fs-field-label fs-anim-upper" for="q3" data-info="Como te enteraste de nosotros">Como te enteraste</label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
-								<span><input id="q3b" name="q3" type="radio" value="conversion"/><label for="q3b" class="radio-conversion">Recomendacion</label></span>
-								<span><input id="q3c" name="q3" type="radio" value="social"/><label for="q3c" class="radio-social">Redes Sociales</label></span>
-								<span><input id="q3a" name="q3" type="radio" value="mobile"/><label for="q3a" class="radio-mobile">Publicidad Impresa</label></span>
+								<span><input id="q3a" name="q3" type="radio" value="recomecacion"/><label for="q3a" class="radio-conversion">Recomendacion</label></span>
+								<span><input id="q3b" name="q3" type="radio" value="social"/><label for="q3b" class="radio-social">Redes Sociales</label></span>
+								<span><input id="q3c" name="q3" type="radio" value="mobile"/><label for="q3c" class="radio-mobile">Publicidad Impresa</label></span>
 							</div>
 						</li>
 						<li>
