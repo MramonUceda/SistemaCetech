@@ -144,7 +144,7 @@ public class ValidaFormulario extends HttpServlet {
 			// TODO Auto-generated catch block
 			//e.printStackTrace();
 			System.out.println("Error de comunicacion con la base de datos");
-			JOptionPane.showMessageDialog(null, "Error de comunicacion con la base de datos.\nFavor de contactar al administrador del sistema o intente mas tarde.");
+			JOptionPane.showMessageDialog(null, "Error de comunicacion con la base de datos.\nFavor de contactar al administrador del sistema o intente mas tarde."); 
 		}
 		
 //		request.setAttribute("mensaje", "Registro realizado correctamente");
