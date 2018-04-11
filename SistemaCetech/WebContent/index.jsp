@@ -63,7 +63,7 @@
 							<input class="fs-anim-lower" id="materno" name="materno" type="text" placeholder="Cruz" required/>
 						</li>
 						<li>
-							<label class="fs-field-label fs-anim-upper" for="correo" data-info="Se enviara informacion importante a esta direccion">E-mail?</label>
+							<label class="fs-field-label fs-anim-upper" for="correo" data-info="Se enviara informacion importante a esta direccion">E-mail?(Recuerda ingresar tú correo de forma correcta ya que se te enviará infomación importante)</label>
 							<input class="fs-anim-lower" id="correo" name="correo" type="email" placeholder="usuario@dominio.com" required/>
 						</li>
 						<!-- <li data-input-trigger>
