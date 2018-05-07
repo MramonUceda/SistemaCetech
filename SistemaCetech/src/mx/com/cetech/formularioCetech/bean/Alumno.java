@@ -17,6 +17,7 @@ public class Alumno implements Serializable{
 	private String formaDePago;
 	private boolean activo;
 	private String contrasenia;
+	private String userName;
 	private String sexo;
 	private String fechaNacimiento;
 	private String telefono;	
@@ -41,7 +42,7 @@ public class Alumno implements Serializable{
 	
 
 	public Alumno(int idUsuario, String nombre, String apellidoPaterno, String apellidoMaterno,
-			String correoElectronico, String curso, String formaDePago, boolean activo, String contrasenia, String sexo,String fechaNacimiento, String telefono, String calle, String codigoPostal, String colonia, String estado,String delegacion,
+			String correoElectronico, String curso, String formaDePago, boolean activo, String contrasenia, String userName, String sexo,String fechaNacimiento, String telefono, String calle, String codigoPostal, String colonia, String estado,String delegacion,
 			 String ocupacion, String nivelAcademico, String escuela, String medio,
 			String expectativas, String fechaRegistro, String fechaActualizacion, String horario) {
 		super();
@@ -55,6 +56,7 @@ public class Alumno implements Serializable{
 		this.formaDePago = formaDePago;
 		this.activo = activo;
 		this.contrasenia = contrasenia;
+		this.userName = userName;
 		this.sexo = sexo;
 		this.fechaNacimiento = fechaNacimiento;
 		this.telefono = telefono;
@@ -162,6 +164,17 @@ public class Alumno implements Serializable{
 
 	public void setContrasenia(String contrasenia) {
 		this.contrasenia = contrasenia;
+	}
+
+	
+
+	public String getUserName() {
+		return userName;
+	}
+
+
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 
